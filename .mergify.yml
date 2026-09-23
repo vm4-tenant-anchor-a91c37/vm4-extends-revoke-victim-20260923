@@ -1,8 +1,1 @@
-pull_request_rules:
-  - name: VM4 merge validated post-revocation config probe
-    conditions:
-      - title = VM4_EXTENDS_REVOKE_AFTER_20260923
-      - check-success = Configuration changed
-    actions:
-      merge:
-        method: merge
+extends: vm4-extends-revoke-source-20260923
